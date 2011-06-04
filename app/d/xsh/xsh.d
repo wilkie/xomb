@@ -18,7 +18,7 @@ import libos.fs.minfs;
 
 void main() {
 	Console.backcolor = Color.Black; 
-	Console.forecolor = Color.Green;
+	Console.forecolor = Color.Blue;
 
 	MinFS.initialize();
 
