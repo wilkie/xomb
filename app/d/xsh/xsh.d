@@ -192,12 +192,12 @@ void interpret(char[] str) {
 						workingDirectory = workingDirectorySpace[0 .. argumentPath.length];
 					}
 					else {
-						Console.putString("xsh: cd: Not a directory.\n");
+						Console.putString("kRash: cd: Not a directory.\n");
 						return;
 					}
 				}
 				else {
-					Console.putString("xsh: cd: Path does not exist.\n");
+					Console.putString("kRash: cd: Path does not exist.\n");
 					return;
 				}
 			}			
