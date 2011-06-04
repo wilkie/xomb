@@ -1,10 +1,10 @@
-/* xsh.d
+/* krash.d
 
-   XOmB Native Shell
+   kRash (kRaken advanced shell)
 
 */
 
-module xsh;
+module krash;
 
 import user.syscall;
 
@@ -83,9 +83,9 @@ bool streq(char[] stra, char[] strb) {
 }
 
 void printPrompt() {
-	Console.putString("root@localhost:");
+	Console.putString("kRash:");
 	Console.putString(workingDirectory);
-	Console.putString("$ ");
+	Console.putString(" ==> ");
 }
 
 void interpret(char[] str) {
