@@ -4,7 +4,7 @@
 
 */
 
-module krash;
+module xsh;
 
 import user.syscall;
 
