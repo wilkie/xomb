@@ -1,6 +1,6 @@
 /* xsh.d
 
-   XOmB Native Shell
+   kRaken Native Shell
 
 */
 
@@ -18,7 +18,7 @@ void main(char[][] argv) {
 	Console.backcolor = Color.Black; 
 	Console.forecolor = Color.Green;
 
-	Console.putString("\nHello, and Welcome to XOmB\n");
+	Console.putString("\nHello, and Welcome to kRaken\n");
 	Console.putString(  "-=-=-=-=-=-=-=-\n\n");
 
 	Console.backcolor = Color.Black; 
